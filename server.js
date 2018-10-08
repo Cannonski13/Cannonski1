@@ -5,7 +5,7 @@ const prefix = "?"
 
 client.on("ready", () => {
 client.user.setGame(prefix + "ping")
-console.log("this bot has booted up and functioned")
+console.log("this bot has booted up Ready to function")
 });
 client.on("message", message => (
   if (message.content == prefix + "ping"){
