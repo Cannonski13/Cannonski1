@@ -7,6 +7,7 @@ client.on("ready", () => {
 client.user.setGame('?ping')
 console.log("this bot has booted up Ready to function")
 });
+
 client.on('ready', () => {
     console.log('I am ready!');
 });
@@ -14,7 +15,6 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === '?ping') {
     	message.reply('pong');
-  	}
 });
 
 client.on('message', message => {
