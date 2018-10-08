@@ -1,0 +1,3 @@
+const.bot === online
+const.bot === offline = false
+const.bot === online 24/7 = true
