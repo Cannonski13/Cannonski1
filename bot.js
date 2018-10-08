@@ -4,8 +4,8 @@ const client = new Discord.Client();
 const prefix = "?" 
 
 client.on("ready", () => {
-client.user.set Game(prefix + ping)
-console.log(this bot has booted up Ready to function)
+client.user.setGame === (prefix + 'ping')
+console.log("this bot has booted up Ready to function")
 });
 client.on('ready', () => {
     console.log('I am ready!');
