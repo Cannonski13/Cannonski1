@@ -1,7 +1,7 @@
 {
-  "name": "Test",
-  "description": "Test",
-  "version": "0.0.0",
+  "name": "DJ Cannonski",
+  "description": "New bot to provide Moderation and Music!",
+  "version": "0.0.1",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
