@@ -19,25 +19,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === '?help') {
-    	message.reply('https://discordapp.com/channels/498633238202417162/498643666697715752');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'Hello') {
-    	message.reply('Sup bro')
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'hello') {
-    	message.reply('Sup Bro')
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'hi') {
-    	message.reply('Wassup Dude')
+    	message.reply('https://discord.gg/nBCrBQZ');
   	}
 });
 
