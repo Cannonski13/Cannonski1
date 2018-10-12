@@ -11,9 +11,7 @@ bot.on('messageCreate', msg => {
 
 	if (msg.author.bot) return;
 
-
-	};
-
+	
 	if (msg.content === '?help') {
 		bot.createMessage(msg.channel.id, 'If you are needing help join the support server here: https://discord.gg/nBCrBQZ')
 		.catch((e) => {console.log(e)});
