@@ -25,7 +25,7 @@ bot.on('messageCreate', msg => {
 
 		console.log(usedby);
   	};
-if (msg.content === '?ping') {
+    if (msg.content === '?ping') {
 		bot.createMessage(msg.channel.id, 'Pong')
 		.catch((e) => {console.log(e)});
 
